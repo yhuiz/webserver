@@ -1,0 +1,28 @@
+.page-overview .ios93preview-tile .image-ios93-preview-tile { background-repeat: no-repeat; background-size: 245px 241px; height: 241px; width: 245px; background-image: url("http://images.apple.com/cn/ios/overview/images/ios93_preview_tile_large.jpg"); margin-left: -150px; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) { .page-overview .ios93preview-tile .image-ios93-preview-tile { background-image: url("http://images.apple.com/cn/ios/overview/images/ios93_preview_tile_large_2x.jpg"); } }
+
+@media only screen and (max-width: 1068px) { .page-overview .ios93preview-tile .image-ios93-preview-tile { background-size: 191px 188px; height: 188px; width: 191px; background-image: url("http://images.apple.com/cn/ios/overview/images/ios93_preview_tile_medium.jpg"); } }
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) { .page-overview .ios93preview-tile .image-ios93-preview-tile { background-image: url("http://images.apple.com/cn/ios/overview/images/ios93_preview_tile_medium_2x.jpg"); } }
+
+@media only screen and (max-width: 735px) { .page-overview .ios93preview-tile .image-ios93-preview-tile { background-size: 288px 187px; height: 187px; width: 288px; background-image: url("http://images.apple.com/cn/ios/overview/images/ios93_preview_tile_small.jpg"); } }
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) { .page-overview .ios93preview-tile .image-ios93-preview-tile { background-image: url("http://images.apple.com/cn/ios/overview/images/ios93_preview_tile_small_2x.jpg"); } }
+
+@media only screen and (max-width: 1068px) { .page-overview .ios93preview-tile .image-ios93-preview-tile { margin-left: -120px; } }
+
+@media only screen and (max-width: 735px) { .page-overview .ios93preview-tile .image-ios93-preview-tile { margin: 40px auto 0; } }
+
+.page-overview .ios93preview-tile .tile-image { position: absolute; left: 50%; bottom: 0; }
+
+@media only screen and (max-width: 735px) { .page-overview .ios93preview-tile .tile-image { position: relative; left: auto; bottom: auto; margin: 0 auto; float: left; width: 100%; } }
+
+.page-overview .section-whats-new {
+  margin-top: 0px; }
+  @media only screen and (max-width: 1068px) {
+    .page-overview .section-whats-new {
+      margin-top: 0px; } }
+  @media only screen and (max-width: 735px) {
+    .page-overview .section-whats-new {
+      margin-top: 0px; } }

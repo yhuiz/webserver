@@ -1,0 +1,131 @@
+/* WEB FONT */
+.puncuation { letter-spacing: -0.3em; }
+
+.more { font-size: 16px; }
+.more::after, .more .icon-htc { top: -1.5px; }
+.more.myriad::after, .more.myriad .icon-htc { top: 0px; }
+
+.centeralign { padding-left: 0.4em; }
+@media only screen and (max-width: 735px) { .centeralign { padding-left: 0; } }
+@media only screen and (max-width: 735px) and (max-device-width: 768px) { .centeralign { padding-left: 0; } }
+
+#ac-localnav * {font-size: 1.01em;}
+#ac-localnav .ac-ln-button {font-size: 1.01em;}
+
+html[lang=zh-CN] #ac-localnav, 
+html[lang=zh-CN] #ac-localnav select, 
+html[lang=zh-CN] #ac-localnav button,
+html[lang=zh-CN] #ac-localnav .ac-ln-button,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-info-copy,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-hero-title,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-info-title,
+html[lang=zh-CN] #ac-globalfooter a.ac-gf-block .ac-gf-block-link,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-sosumi p, 
+html[lang=zh-CN] #ac-globalfooter .ac-gf-sosumi li,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-info-caption,
+html[lang=zh-CN] #ac-globalfooter, 
+html[lang=zh-CN] #ac-globalfooter select,
+html[lang=zh-CN] #ac-globalfooter button,
+html[lang=zh-CN] span.badge-half,
+html[lang=zh-CN] span.badge-small {
+   font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+
+#ac-localnav .ac-ln-title a{font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+sup.star{ font-size: 15px !important; bottom:0em !important; }
+
+/* page-overview */
+.violator { font-size: 13px; }
+
+
+html[lang=zh-CN] .page-overview h4.subheadline-subsection { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+
+html[lang=zh-CN] h4.subheadline-subsection.myriad{	font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;font-size: 32px;
+line-height: 1.125;
+font-weight: 200;
+letter-spacing: normal;}
+
+  @media only screen and (max-width: 1068px) {
+    html[lang=zh-CN] h4.subheadline-subsection.myriad {
+      font-size: 28px;
+      line-height: 1.14286;
+      font-weight: 200;
+      letter-spacing: normal; } }
+  @media only screen and (max-width: 735px) {
+   html[lang=zh-CN] h4.subheadline-subsection.myriad {
+      font-size: 24px;
+      line-height: 1.16667;
+      font-weight: 200;
+      letter-spacing: normal; } }
+
+html[lang=zh-CN] .subheadline-subsection.myriad { font-size: 32px; line-height: 1.125; font-weight: 0; letter-spacing: normal; margin-top: 0; }
+@media only screen and (max-width: 1068px) { html[lang=zh-CN] .subheadline-subsection.myriad { font-size: 28px; line-height: 1.14286; font-weight: 0; letter-spacing: normal; } }
+@media only screen and (max-width: 735px) { html[lang=zh-CN] .subheadline-subsection.myriad { font-size: 24px; line-height: 1.16667; font-weight: 0; letter-spacing: normal; } }
+
+
+@media only screen and (max-width: 735px) { html[lang=zh-CN] h2.copy { letter-spacing: 0px; } }
+/* page-what-is */
+.page-what-is p.intro { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+html[lang=zh-CN] .page-what-is h3.headline-image { font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-weight: 600; }
+html[lang=zh-CN] .page-what-is h4.headline-image { font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-weight: 600; }
+html[lang=zh-CN] .page-what-is h5.headline-image { font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-weight: 600; }
+
+.page-what-is h4.subheadline-subsection { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+.page-what-is h4.subheadline-subsection.myriad { font-family: "Myriad Set Pro",'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+/* page-photos */
+.page-photos .section-capture h2 { width: 570px; }
+@media only screen and (max-width: 1068px) { .page-photos .section-capture h2 { width: 430px; } }
+@media only screen and (max-width: 735px) { .page-photos .section-capture h2 { width: auto; } }
+
+/* page-homekit */
+html[lang=zh-CN] .headline-hero-page span.myriad { font-family: "Myriad Set Pro",'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 64px; line-height: 1.0625; font-weight: 200; letter-spacing: -0.02em; margin-left: auto; margin-right: auto; text-align: center; margin-bottom: 18px; }
+@media only screen and (max-width: 1068px) { html[lang=zh-CN] .headline-hero-page span.myriad { font-family: "Myriad Set Pro",'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 52px; line-height: 1.07692; font-weight: 200; letter-spacing: -0.014em; } }
+@media only screen and (max-width: 735px) { html[lang=zh-CN] .headline-hero-page span.myriad { font-family: "Myriad Set Pro",'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 36px; line-height: 1.11111; font-weight: 200; letter-spacing: -0.002em; } }
+
+.page-homekit .section-siri .siri-scenes p { font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 26px; }
+@media only screen and (max-width: 1068px) { .page-homekit .section-siri .siri-scenes p { font-size: 25px; } }
+@media only screen and (max-width: 735px) { .page-homekit .section-siri .siri-scenes p { font-size: 21px; } }
+
+.page-homekit .section-hero .feature-showcase .hero-icon-label { font-size: 16px; }
+
+.page-homekit .section-control .trigger-content p { font-size: 12px; }
+
+.page-homekit section.section.section-get-started a.more, .page-homekit section.section.section-enabled-products a.more { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 24px; }
+
+.page-homekit h4.subsection-subheadline { font-family: "Myriad Set Pro",'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+.page-homekit p.intro.center { font-size: 18px; font-weight: 600; }
+
+.page-homekit .more { font-size: 20px; }
+
+
+p.intro{ font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+html[lang=zh-CN] .headline-image{ font-family: "Myriad Set Pro",'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 16px; line-height: 1.5;
+font-weight: 600;
+letter-spacing: normal; }
+.page-homekit .section-control .trigger-caption-content h5,
+.page-homekit h4.smallblock-headline{font-weight: 600;}
+
+.page-homekit .section-set-scene .scene-callout .caption-copy {
+    padding-top: 6px;}
+@media only screen and (max-width: 735px) {
+  .page-homekit .section-set-scene .scene-callout .caption-copy {
+	display: none; } }
+
+
+
+
+
+
+/* imovie */
+.page-imovie header.section.section-header p.intro {font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+.slideshow-wrapper .slideshow-content p { font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 12px; line-height: 1.75; } 
+a#imovie-made.ac-video.icon.icon-after.icon-play.movie-trigger{  font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 16px;}
+.page-imovie p.intro{ font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+.page-imovie .slideshow-wrapper .slideshow-content p{  font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+.page-imovie h5.platforms-title,
+.page-imovie h5.subsection-subheadline{font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
